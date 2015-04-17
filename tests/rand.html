@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>rand</title>
+	<script src="../rand.js"></script>
+</head>
+<body>
+    <h1>rand</h1>
+	<textarea id='ta' style="width:500px; height: 400px;"></textarea>
+	<script>
+		var rand = window.rand;
+		document.getElementById('ta').value = JSON.stringify(rand.data(3), null, 4);
+	</script>
+</body>
+</html>
