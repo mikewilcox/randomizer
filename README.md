@@ -22,27 +22,27 @@ include file:
 
 ## Properties
 
-	real: Boolean
+#### real: Boolean
 
 Default false. Randomly generated sentences, titles, and words by default use "wurds" - words with scrambled vowels so they aren't actual words, but look more like lorem ipsum.
 
-	words: Array
+#### words: Array
 
 The array of words used for mock sentences and titles. List is arranged by most commonly used in writing, so using a weight will return more common words.
 
-	wurds: Array
+#### wurds: Array
 
 The default content used for sentences and titles. Wurds are words with their vowels scrambled to simulate lorem ipsum.
 
-	names: Array
+#### names: Array
 
 An array of names chosen because they can be used as first or last names.
 
-	sites: Array
+#### sites: Array
 
 An array of website names chosen because they are familiar and succinct.
 
-	letters: Array
+#### letters: Array
 
 All 26 characters in the alphabet, arranged by most common used in writing.
 
