@@ -279,7 +279,7 @@
 				return items;
 			}
 	};
-	rand.wurds = words.replace(/a|e|i|o|u/g, function(c){ return ("aeiou")[window.rand.n(5)]; }).split(",");
+	rand.wurds = words.replace(/a|e|i|o|u/g, function(c){ return ("aeiou")[rand.n(5)]; }).split(",");
 
 	return rand;
 }));
