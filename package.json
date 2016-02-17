@@ -1,0 +1,13 @@
+{
+	"author": "Mike Wilcox @clubajax",
+	"name": "Randomizer",
+	"main":"rand.js",
+	"description": "A randomizer library for producing mock data",
+	"version": "1.0.0",
+	"license": "Unlicense",
+    "readmeFilename": "README.md",
+	"repository": {
+        "type": "git",
+        "url": "git://github.com/clubajax/randomizer.git"
+    }
+}
